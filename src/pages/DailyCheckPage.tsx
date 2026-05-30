@@ -151,7 +151,7 @@ export default function DailyCheckPage({ selectedDate }: DailyCheckPageProps) {
             {/* QUESTION 2: Menstrual Pain */}
             <div className="space-y-2 p-1.5 pt-4 transition-all border-t border-gray-50">
               <span className="block text-sm font-semibold text-emerald-950">
-                2. Есть ли у тебя сегодня менструальные или гинекологические боли?
+                2. Есть ли у тебя сегодня менструальные боли?
               </span>
               <p className="text-[11px] text-gray-400">
                 Гормональные колебания могут напрямую влиять на уровень тревоги и уязвимости.

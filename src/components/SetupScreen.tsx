@@ -48,7 +48,7 @@ export default function SetupScreen({ onSave }: SetupScreenProps) {
           </div>
           
           <h1 className="text-2xl md:text-3xl font-extrabold text-emerald-950 tracking-tight">
-            Привет, дорогая подруга!
+            Привет, дорогая!
           </h1>
           
           <p className="mt-3 text-sm text-gray-600 leading-relaxed">

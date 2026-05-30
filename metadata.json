@@ -1,5 +1,5 @@
 {
-  "name": "Дневник Трезвости",
+  "name": "MarGo",
   "description": "Приложение для поддержки женщин в ремиссии от алкогольной зависимости: календарь трезвости, ежедневный опросник, дневник эмоций и самопомощь.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

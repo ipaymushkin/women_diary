@@ -96,7 +96,7 @@ export default function HomePage({
       <div className="bg-white p-5 md:p-6 rounded-3xl border border-gray-100 shadow-xs flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <h2 className="text-xl md:text-2xl font-extrabold text-emerald-950 flex items-center gap-2">
-            Привет, дорогая подруга! <Sparkles className="text-brand w-5 h-5 animate-pulse" />
+            Привет, дорогая! <Sparkles className="text-brand w-5 h-5 animate-pulse" />
           </h2>
           <p className="text-xs md:text-sm text-gray-500 mt-1">
             Рады видеть тебя. Твой путь уникален, и в этом доме нет места осуждению — только искренняя забота и поддержка.

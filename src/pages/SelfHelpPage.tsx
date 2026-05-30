@@ -239,13 +239,9 @@ export default function SelfHelpPage({ selectedDate }: SelfHelpPageProps) {
         {/* PANIC BUTTON ZONE */}
         <div className="pt-6 border-t border-gray-100 flex flex-col items-center text-center space-y-4">
           <div className="space-y-1">
-            <h4 className="font-extrabold text-sm text-rose-950 uppercase tracking-widest flex items-center justify-center gap-1">
-              <AlertOctagon size={16} className="text-alarm shrink-0" />
-              Чувствуешь невыносимую тягу прямо сейчас?
+            <h4 className="text-lg md:text-xl font-extrabold text-rose-950">
+              Не справляешься?
             </h4>
-            <p className="text-xs text-gray-500 max-w-lg mx-auto">
-              Если сердце бьется чаще, руки дрожат и кажется, что ты готова сорваться — остановись. Нажми кнопку ниже. Это твой спасательный круг.
-            </p>
           </div>
 
           <button

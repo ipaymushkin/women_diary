@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { TopHeader, BottomNav } from './components/Navigation';
 import SetupScreen from './components/SetupScreen';
 import HomePage from './pages/HomePage';
@@ -14,6 +14,16 @@ import MyTasksPage from './pages/MyTasksPage';
 import MotivationPage from './pages/MotivationPage';
 import SelfHelpPage from './pages/SelfHelpPage';
 import { getLocalDateString } from './utils/dateUtils';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 export default function App() {
   const [sobrietyStart, setSobrietyStart] = useState<string | null>(() => {
@@ -49,6 +59,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="min-h-screen bg-bg-serene text-slate-800 pb-20 md:pb-6 flex flex-col font-sans select-none selection:bg-brand/25">
         
         {/* Responsive Desktop Top Bar navigation & date label */}
